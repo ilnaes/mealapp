@@ -1,6 +1,10 @@
 steps:
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['build', '-t', 'us-east1-docker.pkg.dev/$PROJECT_ID/images/api', '.']
+  args:
+    - 'build'
+    - '-t'
+    - 'us-east1-docker.pkg.dev/$PROJECT_ID/images/api'
+    - '.'
 - name: "gcr.io/cloud-builders/docker"
   args:
     - "push"

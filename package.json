@@ -1,7 +1,7 @@
 {
-  "name": "helloworld",
-  "description": "Simple hello world sample in Node",
-  "version": "1.0.0",
+  "name": "mealapp",
+  "description": "API for meal logging app",
+  "version": "0.1.0",
   "private": true,
   "main": "dist/src/index.js",
   "scripts": {
@@ -16,7 +16,6 @@
   "license": "Apache-2.0",
   "dependencies": {
     "bcrypt": "^5.1.0",
-    "body-parser": "^1.20.2",
     "express": "^4.17.1",
     "jsonwebtoken": "^9.0.0",
     "mongodb": "^5.4.0",

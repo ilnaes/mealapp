@@ -2,7 +2,6 @@ FROM node:19-slim
 
 WORKDIR /app
 COPY package.json package-lock.json ./
-# COPY . ./
 
 RUN npm ci
 
